@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: rgb(255, 255, 102);
+    padding-top: 60px;
+}
+
+#header-logo {
+    width: 64px;
+    height: 64px;
+}
+
+#header-msg {
+    font-size: 25px;
+    color: #000;
+}
+
+/* Button */
+#btnOne {
+    background-color: rgb(255, 255, 102);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnOne:focus,
+#btnOne:hover {
+    background-color: rgb(235, 235, 0);
+    outline: none;
+}
+
+/* Table Header */
+#tableHead {
+    background-color: rgb(255, 255, 102);
+}
+
+/* Search Input */
+#searchInput {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+#searchInput:hover,
+#searchInput:focus {
+    border-color: #999;
+    outline: none;
+}
+
+/* Bar */
+.bar {
+    background-color: rgb(255, 255, 102);
+    height: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: height 0.3s ease;
+}
+
+.bar:hover {
+    height: 10px;
+    transition: height 0.3s ease;
+}
